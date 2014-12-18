@@ -1,0 +1,27 @@
+{
+  "name": "gatewayd-cli",
+  "version": "0.1.0",
+  "description": "Command Line Interface to Gatewayd",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatewayd/gatewayd-cli.git"
+  },
+  "author": "Steven Zeiler",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.5.1",
+    "require-all-to-camel": "^1.0.0",
+    "promptly": "^0.2.0",
+    "underscore-node": "^0.1.2",
+    "cli-table": "^0.3.1",
+    "chance": "^0.7.0",
+    "ripple-rest-client": "^1.13.0",
+    "async": "^0.9.0",
+    "grunt": "^0.4.5"
+  }
+}
